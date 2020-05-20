@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.deva.chicago</groupId>
-	<artifactId>currency-conversion-service</artifactId>
+	<artifactId>naming-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>currency-conversion-service</name>
-	<description>currency-conversion-service</description>
+	<name>naming-server</name>
+	<description>naming-server</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -25,31 +25,9 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-		<dependency>
-	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-starter-sleuth</artifactId>
-	    </dependency>
-	    <dependency>
-		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-sleuth-zipkin</artifactId>
-		</dependency>
-		<dependency>
-		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>
-		
-			    
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
